@@ -1,0 +1,70 @@
+.dashboard {
+    padding: 20px;
+    background-color: #ecf0f1;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .dashboard h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .widgets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .widget {
+    width: 23%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .widgets .widget:nth-child(1) {
+    background-color: #3498db; /* Example color for Total Orders */
+    color: #fff;
+  }
+  
+  .widgets .widget:nth-child(2) {
+    background-color: #e74c3c; /* Example color for Total Delivered */
+    color: #fff;
+  }
+  
+  .widgets .widget:nth-child(3) {
+    background-color: #f1c40f; /* Example color for Total Cancelled */
+    color: #fff;
+  }
+  
+  .widgets .widget:nth-child(4) {
+    background-color: #2ecc71; /* Example color for Total Revenue */
+    color: #fff;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .chart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .chart:last-child {
+    margin-right: 0;
+  }
+  
